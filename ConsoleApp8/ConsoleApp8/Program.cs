@@ -362,7 +362,7 @@ namespace Degen
         {
             // Centralize the logic for commands into a separate method.
             await InitCommands();
-            string realtoken = "NTYyMTQ4Nzk0NjEyMDU2MDY0.Xg_Dyw.vID6Jv0djjdirLs7m-9LxX-IqHg";
+            string realtoken = "secret";
             // Login and connect.
             await _client.LoginAsync(TokenType.Bot,
 
